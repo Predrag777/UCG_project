@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UCG_project</string>
+    <string name="login">Login</string>
 </resources>
