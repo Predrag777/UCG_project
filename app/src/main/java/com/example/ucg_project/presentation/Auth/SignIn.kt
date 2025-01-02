@@ -12,8 +12,5 @@ class SignIn : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signin)
-
-       /* setSupportActionBar(findViewById<View>(toolbar) as androidx.appcompat.widget.Toolbar?)
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)*/
     }
 }
