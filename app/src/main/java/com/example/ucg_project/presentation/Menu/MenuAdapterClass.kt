@@ -9,7 +9,7 @@ import com.example.ucg_project.R
 import com.example.ucg_project.data.MenuDataClass
 import com.example.ucg_project.presentation.news.AdapterClass
 import com.example.ucg_project.presentation.news.AdapterClass.ViewHolderClass
-
+//
 class MenuAdapterClass (private val datalist:ArrayList<MenuDataClass>):  RecyclerView.Adapter<AdapterClass.ViewHolderClass>(){
     override fun onCreateViewHolder(
         parent: ViewGroup,
