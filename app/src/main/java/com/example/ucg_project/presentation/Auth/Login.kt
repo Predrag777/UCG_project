@@ -8,6 +8,7 @@ import android.widget.Toolbar
 import androidx.activity.ComponentActivity
 import com.example.ucg_project.R
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.ucg_project.presentation.Menu.Menu
 import com.example.ucg_project.presentation.news.News
 
 class Login : AppCompatActivity(){

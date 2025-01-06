@@ -21,11 +21,12 @@ class MenuAdapterClass (private val datalist:ArrayList<MenuDataClass>):  Recycle
     }
 
     override fun onBindViewHolder(holder: AdapterClass.ViewHolderClass, position: Int) {
-        TODO("Not yet implemented")
+        val currentItem=datalist[position]
+        holder.rvImage.setImageResource(currentItem.dataImage)
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return datalist.size
     }
 
 
