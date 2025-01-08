@@ -13,33 +13,7 @@
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
 
         tools:targetApi="31">
-        <activity
-            android:name=".presentation.Auth.Login"
-            android:exported="true"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-            ></activity>
 
-        <activity
-            android:name=".presentation.Auth.SignIn"
-            android:exported="true"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-            ></activity>
-
-        <activity
-            android:name=".presentation.news.News"
-            android:exported="true"
-            android:parentActivityName=".presentation.Auth.Login"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-            ></activity>
-
-        <activity
-            android:name=".presentation.Menu.Menu"
-            android:exported="true"
-            android:parentActivityName=".presentation.Auth.Login"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-            ></activity>
 
         <activity
             android:name=".MainActivity"

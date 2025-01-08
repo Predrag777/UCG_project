@@ -14,8 +14,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.ucg_project.presentation.Auth.Login
-import com.example.ucg_project.presentation.Auth.SignIn
 import com.example.ucg_project.ui.theme.UCG_projectTheme
 
 class MainActivity : ComponentActivity() {
